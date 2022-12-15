@@ -22,8 +22,7 @@ app.get('/',(req,res) =>{
 })
 
 
-//connecting to the database MongoDB    mongodb+srv://admin1:qsPquO98ze5OON21@cluster0.ma6mwly.mongodb.net/?retryWrites=true&w=majority
-//mongodb+srv://Hermmann:ccelHGsVaGxI6ECN@cluster0.lfvaceb.mongodb.net/test   
+
 mongoose.connect("mongodb+srv://Hermmann:ccelHGsVaGxI6ECN@cluster0.lfvaceb.mongodb.net/retryWrites=true&w=majority")
 .then(()=>console.log('Connected to MongoDB Atlas'))
 .catch((error)=>console.error(error))
